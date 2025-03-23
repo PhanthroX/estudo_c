@@ -23,13 +23,13 @@ int main() {
     cidade_a[strcspn(cidade_a, "\n")] = '\0'; // Remove o ENTER da string
 
     // Lendo os valores numéricos corretamente
-    printf("Informe a população da cidade: ");
+    printf("Informe a população da cidade (Não utilize pontuação, apenas números): ");
     scanf("%i", &populacao_a);
 
-    printf("Informe a área da cidade: ");
+    printf("Informe a área da cidade (Não utilize pontuação, apenas números): ");
     scanf("%f", &area_a);
 
-    printf("Informe o PIB da cidade: ");
+    printf("Informe o PIB da cidade (Não utilize pontuação, apenas números): ");
     scanf("%f", &pib_a);
 
     printf("Informe o número de pontos turísticos da cidade: ");
@@ -50,16 +50,16 @@ int main() {
     fgets(cidade_b, 50, stdin);
     cidade_b[strcspn(cidade_b, "\n")] = '\0'; // Remove o ENTER da string
 
-    printf("Informe a população da cidade: ");
+    printf("Informe a população da cidade (Não utilize pontuação, apenas números): ");
     scanf("%i", &populacao_b);
 
-    printf("Informe a área da cidade: ");
+    printf("Informe a área da cidade (Não utilize pontuação, apenas números): ");
     scanf("%f", &area_b);
 
-    printf("Informe o PIB da cidade: ");
+    printf("Informe o PIB da cidade (Não utilize pontuação, apenas números): ");
     scanf("%f", &pib_b);
 
-    printf("Informe o número de pontos turísticos da cidade: ");
+    printf("Informe o número de pontos turísticos da cidade (Não utilize pontuação, apenas números): ");
     scanf("%i", &pontos_turisticos_b);
 
     /* Exibindo os dados cadastrados */
