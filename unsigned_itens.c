@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
 #include <string.h>
- 
+
 int main() {
     setlocale(LC_ALL, "pt_BR.UTF-8");
     int signedNumber = 3000000000; // Este valor excede o limite de um int normal
