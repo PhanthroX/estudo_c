@@ -10,5 +10,5 @@ int main() {
 
     printf("Resultado: %.2f\n", resultado); // 'a' convertido implicitamente para float
 
-    return 0;
+    return 1;
 }
