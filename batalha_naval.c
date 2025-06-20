@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 #define TAMANHO 10
 #define TAM_HABILIDADE 5
